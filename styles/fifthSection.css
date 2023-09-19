@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "BloggerSans";
+  src: url(font/BloggerSans);
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url(font/ProximaNova);
+}
+
+.fifth_section {
+  margin: 150px 264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.fifth_section_title {
+  color: #1a202c;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.fifth_section_cards {
+  display: flex;
+  gap: 30px;
+}
+
+.fifth_section_card {
+  width: 444px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fifth_section_image {
+  width: 444px;
+  height: 400px;
+}
+
+.fifth_section_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fifth_section_card_title {
+  color: #1a202c;
+  text-align: center;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.fifth_section_card_desc {
+  color: #1a202c;
+  text-align: center;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.fifth_section_card_first_image {
+    background-image: url('../img/section5image1.png');
+}
+
+.fifth_section_card_second_image {
+    background-image: url('../img/section5image2.png');
+}
+
+.fifth_section_card_third_image {
+    background-image: url('../img/section5image3.png');
+}

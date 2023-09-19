@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "BloggerSans";
+  src: url(font/BloggerSans);
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url(font/ProximaNova);
+}
+
+.fourth_section {
+  margin: 0 27px;
+  position: relative;
+}
+
+.fourth_section_image {
+  width: 1234px;
+  height: 720px;
+  background-image: url("../img/section4image.png");
+}
+
+.fourth_section_card {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  width: 790px;
+  height: 620px;
+  padding: 60px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px 0px rgba(142, 162, 170, 0.2);
+}
+
+.fourth_section_title {
+  color: #1a202c;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.fourth_section_text {
+  color: #1a202c;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.fourth_section_small_title {
+  color: #1a202c;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.fourth_section_btn {
+  display: flex;
+  width: 444px;
+  height: 55px;
+  padding: 15px 25px;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ffd324;
+  border: none;
+  outline: none;
+  mask-type: 30px;
+  color: #2d3748;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%;
+}

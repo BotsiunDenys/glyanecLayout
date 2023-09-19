@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "BloggerSans";
+  src: url(font/BloggerSans);
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url(font/ProximaNova);
+}
+
+.seventh_section {
+  height: 566px;
+  display: flex;
+}
+
+.seventh_section_image {
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/section7image.png");
+}
+
+.seventh_section_info {
+  padding: 36px 30px 20px;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/section7image2.png");
+}
+
+.seventh_section_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.seventh_section_info_blocks {
+  display: flex;
+  margin: 30px 0 122px;
+  gap: 259px;
+}
+
+.seventh_section_info_block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.seventh_section_info_text {
+  color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.seventh_section_info_location {
+  color: #fff;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.seventh_section_info_contact {
+  color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  width: 277px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  display: flex;
+  gap: 5px;
+}
+
+.seventh_section_footer {
+  color: #fff;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "BloggerSans";
+  src: url(font/BloggerSans);
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url(font/ProximaNova);
+}
+
+.sixth_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 343px;
+  background-image: url("../img/section6image.png");
+  height: 541px;
+}
+
+.sixth_section_title {
+  color: #fff;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.sixth_section_text {
+  color: #fff;
+  text-align: center;
+  font-family: "ProximaNova", sans-serif;
+  width: 1234px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.sixth_section_yellow_text {
+  color: #ffd324;
+}
+
+.sixth_section_contact_form {
+  display: flex;
+  margin: 61px 0 80px;
+  gap: 30px;
+}
+
+.sixth_section_label {
+  color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+.sixth_section_contact_form_section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sixth_section_input {
+  background-color: transparent;
+  color: #fff;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+  outline: none;
+}
+
+.sixth_section_btn {
+  display: flex;
+  width: 286px;
+  height: 55px;
+  padding: 15px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #ffd324;
+  color: #2d3748;
+  font-family: "BloggerSans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  border: none;
+  outline: none;
+  align-self: center;
+  justify-self: center;
+}
